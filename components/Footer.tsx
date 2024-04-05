@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
+import { RiGithubFill, RiLinkedinFill, RiInstagramFill, RiWhatsappFill  } from "react-icons/ri";
+import { MdEmail } from "react-icons/md";
 
 export const Footer = () => {
   return (
@@ -16,13 +17,34 @@ export const Footer = () => {
             </a>
           </Link>
         </li>
-{/*         <li className="mr-2.5 lg:mr-10 cursor-pointer">
-          <Link href="https://www.linkedin.com/">
+        <li className="mr-2.5 lg:mr-10 cursor-pointer">
+          <Link href="https://www.linkedin.com/in/roywr">
             <a target="_blank" rel="noreferrer noopener" aria-label="linkedin">
               <RiLinkedinFill size={20} className="hover:text-third" />
             </a>
           </Link>
-        </li> */}
+          </li>
+          <li className="mr-2.5 lg:mr-10 cursor-pointer">
+          <Link href="https://instagram.com/swallow4jnck">
+            <a target="_blank" rel="noreferrer noopener" aria-label="instagram">
+              <RiInstagramFill size={20} className="hover:text-third" />
+            </a>
+          </Link>
+        </li>
+        <li className="mr-2.5 lg:mr-10 cursor-pointer">
+          <Link href="mailto:roywenangr@gmail.com">
+            <a target="_blank" rel="noreferrer noopener" aria-label="email">
+              <MdEmail size={20} className="hover:text-third" />
+            </a>
+          </Link>
+        </li>
+        <li className="mr-2.5 lg:mr-10 cursor-pointer">
+          <Link href="https://api.whatsapp.com/send?phone=6285226491983">
+            <a target="_blank" rel="noreferrer noopener" aria-label="whatsapp">
+              <RiWhatsappFill size={20} className="hover:text-third" />
+            </a>
+          </Link>
+        </li>
       </ul>
     </div>
   );
