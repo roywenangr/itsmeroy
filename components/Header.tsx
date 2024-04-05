@@ -15,7 +15,7 @@ export const Header = () => {
     <div style={{ height: "10vh" }} className="px-10 flex justify-between">
       <div className="flex items-center">
         <ActiveLink activeClassName="text-third" href="/">
-          <div className="text-4xl cursor-pointer">P.</div>
+          <div className="text-4xl cursor-pointer">R.</div>
         </ActiveLink>
       </div>
 
@@ -26,11 +26,11 @@ export const Header = () => {
             <a className="header mr-5">About</a>
           </ActiveLink>
         </li>
-        <li>
+        {/* <li>
           <ActiveLink activeClassName="a-header" href="/overview">
             <a className="header">Works</a>
           </ActiveLink>
-        </li>
+        </li> */}
       </ul>
       <div className="flex items-center md:hidden z-10">
         {menuState ? (
