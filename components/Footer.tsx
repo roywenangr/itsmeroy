@@ -1,16 +1,15 @@
 import Link from "next/link";
 import React from "react";
-import { RiGithubFill, RiLinkedinFill, RiInstagramFill, RiWhatsappFill  } from "react-icons/ri";
+import { RiGithubFill, RiLinkedinFill, RiInstagramFill, RiWhatsappFill, RiTelegramFill   } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 
 export const Footer = () => {
   return (
     <div
       style={{ height: "7vh" }}
-      className="px-10 flex items-center justify-center "
-    >
+      className="px-10 flex items-center justify-center ">
       <ul className="flex text-center ">
-        <li className="mr-2.5 lg:mr-10 cursor-pointer">
+        {/* <li className="mr-2.5 lg:mr-10 cursor-pointer">
           <Link href="https://github.com/roywenangr">
             <a target="_blank" rel="noreferrer noopener" aria-label="github">
               <RiGithubFill size={20} className="hover:text-third" />
@@ -37,11 +36,11 @@ export const Footer = () => {
               <MdEmail size={20} className="hover:text-third" />
             </a>
           </Link>
-        </li>
+        </li> */}
         <li className="mr-2.5 lg:mr-10 cursor-pointer">
-          <Link href="https://api.whatsapp.com/send?phone=6285226491983">
-            <a target="_blank" rel="noreferrer noopener" aria-label="whatsapp">
-              <RiWhatsappFill size={20} className="hover:text-third" />
+          <Link href="https://t.me/samsheart">
+            <a target="_blank" rel="noreferrer noopener" aria-label="telegram">
+              <RiTelegramFill size={20} className="hover:text-third" />
             </a>
           </Link>
         </li>
