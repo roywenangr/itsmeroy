@@ -15,13 +15,13 @@ const SeoTags = () => {
       <meta charSet="utf-8" />
 
       {/*General*/}
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/R.png" />
       <meta name="description" content={tags.description} />
-      <meta name="author" content="Philippe Tedajo" />
+      <meta name="author" content="roywr" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary" key="twcard" />
-      <meta name="twitter:creator" content="Philippe Tedajo" key="twhandle" />
+      <meta name="twitter:creator" content="roywr" key="twhandle" />
 
       {/* Open Graph */}
       <meta property="og:url" content={tags.url} key="ogurl" />
